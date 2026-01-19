@@ -64,5 +64,5 @@ solana-test-validator \
   --account 6CxS1Q9JjUk1AesCRjBwSXrvcXV31ExtRoMfFVvw6Hev artifacts/my_acc.json \
   --account CcA4G4S2xomS131qEVnJyaUCjpxmbfWjqpPzt1mVBr9e artifacts/my_acc.json \
   --bind-address 0.0.0.0 \
-  --rpc-port 8899 \
-  --warp-slot 200
+  --rpc-port 8899
+#   --warp-slot 200
