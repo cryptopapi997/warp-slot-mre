@@ -1,0 +1,68 @@
+#!/bin/bash
+
+solana-test-validator \
+  --account 7EbMUTLo5DjdzbN7s8BXeZwXzEwNQb1hScfRvWg8a6ot artifacts/my_acc.json \
+  --account G2sRWJvi3xoyh5k2gY49eG9L8YhAEWQPtNb1zb1GXTtC artifacts/my_acc.json \
+  --account BoVUVSJAhob2cvM5z4JZTdS6VWRSznh3bbzQD1TFjvDP artifacts/my_acc.json \
+  --account CLSU4qLjcBAdysFwEn5RBpj6dPv3JDYhKfXryyD8V3AH artifacts/my_acc.json \
+  --account HhV8dTHtv5STs5ULFMsALFHCSsEkQrJWwEwiYScfYR9t artifacts/my_acc.json \
+  --account BKnqFQFUJjUq7oqAhsG41yswzmaTjMdxnBPAzWGDNMeH artifacts/my_acc.json \
+  --account BxCCV45oRk2D5WPCVZkzYSjdzrYpEiArPskTgJCFgydy artifacts/my_acc.json \
+  --account 9SWsRXGAASnhRvsZnqV22Jf7TLyLy3NPVU2tzXachRvg artifacts/my_acc.json \
+  --account 62BjuwuiPxwFbXRvFGG9fDuS3BDqMb4AJCJvUP3qovt6 artifacts/my_acc.json \
+  --account A1N143n3x4iF7wfvqiqFXtbQxnyNaHBySnPcaYmi9Xak artifacts/my_acc.json \
+  --account 861kExiVMyLxbpS2xf3cS8HS6MYEkydYTAXCiLtnSesy artifacts/my_acc.json \
+  --account 8FTNyzaUJ3oX5C73c6z4ACeyYUXbnBHaM2VkoFUdiitL artifacts/my_acc.json \
+  --account F79oBkuh6KJnDtSqTtC6GYERoyNJsfvc4Z9jftYvhjyT artifacts/my_acc.json \
+  --account 8NQCLYyuxvgjFbZHTekiwKqX9Ns29mA6aXzBbGX4hwod artifacts/my_acc.json \
+  --account 6vNwQe3fiU1u4JxTM2XkvPou9uH7EZNrskLZJrRYM8WJ artifacts/my_acc.json \
+  --account 2yxL5Wkr7W7dsdFJmXPXdnVzkoQBdobZM5pjPpNWN2Gv artifacts/my_acc.json \
+  --account 8RBwc9aoENbAU9KGidpS8bwTTTJH7byxCry9sSDdBYiP artifacts/my_acc.json \
+  --account BvKZziLyEC56pfWQjcWxUPqMgQEknYjrkh8GGordNYjy artifacts/my_acc.json \
+  --account GTsqasxze47bPZTJdqhTCGcmL1j7uwRe6JBC6gzA32C5 artifacts/my_acc.json \
+  --account 6ujv8vAQMpTmmPiqZWYphrSuroFhfrtDNdvBPidP5pqb artifacts/my_acc.json \
+  --account A1emL5KVspjEPvyJ3otteEq4yZzkafVpn82e9xZ8bPGy artifacts/my_acc.json \
+  --account 47dL5fB8iJVmoSJ7aSccGwEugXoRcdGBLHxjgVkT7Ln1 artifacts/my_acc.json \
+  --account 5jacPNkb6vmb2UtjyLSjvuPzTjbbUm7RcHkGuxycGVAK artifacts/my_acc.json \
+  --account 56XZj4uV3jeUcFSBSUX76RYGDaNXN3k2pBy49RkKjbjJ artifacts/my_acc.json \
+  --account 7TMENQXqfug9pgcCmuZzn5dgpnYPDmnNUHHjBMPHdwjF artifacts/my_acc.json \
+  --account 5EMMdCZq1VZBd6kMnNtbZf3APpUacD8Tw6UWiXQqkRMx artifacts/my_acc.json \
+  --account BPtomMvgSjMWPgme7icBCfzZYZ32GWf9JJtmJXkarvY3 artifacts/my_acc.json \
+  --account GAox67cCpQXheWk3nAUTfZWGgtSPhz8mvHm8iLKHmDmt artifacts/my_acc.json \
+  --account FZ1ucTdeHJhFL3X7NYECB8KJcgX8xroZEYegjJWFSL1z artifacts/my_acc.json \
+  --account CuTp9LKzoY9hy77TkrickLpVTUFgvnRfQHB9tnhG2ypt artifacts/my_acc.json \
+  --account 9NRedXWBKM6cwwV7CJXfBQTtfWxc8TD1biuynt6ex1w1 artifacts/my_acc.json \
+  --account Femd2q19wFyyY7gEgraRR22pBpWqg6Y7KDKzCcCGYwjy artifacts/my_acc.json \
+  --account Eq2YrR5d7QMWgWAnkHLfBvT4h8hxBQEXQjdYHmTZReEC artifacts/my_acc.json \
+  --account 5HEVLPWNZKy9aUP4TVM8oyjvoJpozdM3BQToQhBzPyc6 artifacts/my_acc.json \
+  --account 3pKMUYkfzQcCPwXfY3UhQNAq6YVHgeJ6CC59vyLCyUF3 artifacts/my_acc.json \
+  --account CBQ9Ku6pjQYQH2WkdUj8d7N8GJbVVVfbXLvHhKVf1ebB artifacts/my_acc.json \
+  --account C36obhRXZoRibtz4KFAu7TErxjA4uc7W8jEebT282tJX artifacts/my_acc.json \
+  --account 311VrsjhUDmfM1nyBZjBysyHPRpVhCHMRofJYZnmN66g artifacts/my_acc.json \
+  --account DMqwVx9RPtsrddq3PmASmvGDCux8KHczK97WzeXnhwqS artifacts/my_acc.json \
+  --account 9rUSnh5VrMtRUrJrgAUwcyWvL9NYkscAsDFS5RjPW6Da artifacts/my_acc.json \
+  --account 9EDLm5KDKc1Pf8m587kdxPMvQBNETNahcCfHLNcQ1M8W artifacts/my_acc.json \
+  --account 5ckGZmqtU2TjS49xRJMB7yh24Ao3uQNFzw5gvqzncwns artifacts/my_acc.json \
+  --account 4uwLw4iJUB6vNfvH9iXizDwhQxMtJKNyYLJ6KeVbVvbs artifacts/my_acc.json \
+  --account FmKnUYHyVGDjJy6kNVmMgk7KQCGqx1YWnn1vki8DCFiQ artifacts/my_acc.json \
+  --account H6u5g1N9cP4CNWDLmAtaipcfKEdHLh9U2yqgoufbdtqD artifacts/my_acc.json \
+  --account AKXxb37kQQNPBhmyfKapihL24eqTmpKsXED3snnPLpDC artifacts/my_acc.json \
+  --account Ec2mpCFcGVajgFwVRuyzsyy5eu6Bz4yQbWezhyk8ANcz artifacts/my_acc.json \
+  --account FpHcqK9yuF7oVhkfdLQFHm5jSH9KuhLkcQsvGQbcxMJx artifacts/my_acc.json \
+  --account B3w4U1JeA5d5KrmLXnPW3Hj2ur9nziaUjvGDxxzwmoid artifacts/my_acc.json \
+  --account J7Tf9h5zJtaevrYHqhSGvGrQhCeGexyQDNgNjr9rZqjD artifacts/my_acc.json \
+  --account CYsPs8zmpjQs74asb5puj54M8nKuG3YvX7wbUsyqehKp artifacts/my_acc.json \
+  --account 97yEUA3pLwgLqGtR5vTX281bdCLBKqRHB4NgDqh8uCca artifacts/my_acc.json \
+  --account 2SgdPeKeLwQ2MSJgwPU3pn2pbphqbbqZMqjHdTJDW9p1 artifacts/my_acc.json \
+  --account EH7vzuZteSzshhCTGYSag9if2Dby7RwzzRVpBhGMVGH4 artifacts/my_acc.json \
+  --account BQ9Lgbv6itGumwu6rWPL98mn8yRyBT9Kc9pQcUuFcAQ2 artifacts/my_acc.json \
+  --account 7wi6R6drDtb4m8yhDZgtqtpJEyK2MCF81vi9J8qnTuuR artifacts/my_acc.json \
+  --account BQx1bAnf9DEktAFeRf1UZttKE8RgWCDDrGW9HAuruwZW artifacts/my_acc.json \
+  --account 5pHBaBHorXTy8irCE3tKYkgC5nKWs9f6YkKWnsnnc9vZ artifacts/my_acc.json \
+  --account FDjPn24wk975N9abhGKZaoayFc3zsSEiTx2X6US6dPTT artifacts/my_acc.json \
+  --account 8ShM1o1JRNtA2uGieKgA5NifJz4FiWbPyXr9soBziMBw artifacts/my_acc.json \
+  --account 6CxS1Q9JjUk1AesCRjBwSXrvcXV31ExtRoMfFVvw6Hev artifacts/my_acc.json \
+#   --account CcA4G4S2xomS131qEVnJyaUCjpxmbfWjqpPzt1mVBr9e artifacts/my_acc.json \
+  --bind-address 0.0.0.0 \
+  --rpc-port 8899 \
+  --warp-slot 200

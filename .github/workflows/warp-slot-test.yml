@@ -1,0 +1,59 @@
+name: Warp Slot MRE
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test-warp-slot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+
+    env:
+      SOLANA_VERSION: v2.3.0
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cache Solana CLI
+        id: cache-solana
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/solana/install
+          key: solana-${{ env.SOLANA_VERSION }}-${{ runner.os }}
+
+      - name: Install Solana CLI (Anza v2.3.0)
+        if: steps.cache-solana.outputs.cache-hit != 'true'
+        run: |
+          sh -c "$(curl -sSfL https://release.anza.xyz/${{ env.SOLANA_VERSION }}/install)"
+
+      - name: Add Solana to PATH
+        run: |
+          echo "$HOME/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
+
+      - name: Verify Solana installation
+        run: |
+          solana --version
+
+      - name: Run solana-test-validator with warp-slot
+        run: |
+          # Start validator in background with warp-slot 200
+          ./start.sh &
+          VALIDATOR_PID=$!
+
+          # Wait for validator to start
+          echo "Waiting for validator to start..."
+          sleep 10
+
+          # Try to get latest blockhash
+          echo "Getting latest blockhash..."
+          solana block-height -ul && RESULT=0 || RESULT=$?
+          cat test-ledger/validator.log
+          exit $RESULT
+
+          # Kill the validator
+          kill $VALIDATOR_PID || true
+
+          echo "Test completed successfully"
