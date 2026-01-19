@@ -62,7 +62,7 @@ solana-test-validator \
   --account FDjPn24wk975N9abhGKZaoayFc3zsSEiTx2X6US6dPTT artifacts/my_acc.json \
   --account 8ShM1o1JRNtA2uGieKgA5NifJz4FiWbPyXr9soBziMBw artifacts/my_acc.json \
   --account 6CxS1Q9JjUk1AesCRjBwSXrvcXV31ExtRoMfFVvw6Hev artifacts/my_acc.json \
-#   --account CcA4G4S2xomS131qEVnJyaUCjpxmbfWjqpPzt1mVBr9e artifacts/my_acc.json \
+  --account CcA4G4S2xomS131qEVnJyaUCjpxmbfWjqpPzt1mVBr9e artifacts/my_acc.json \
   --bind-address 0.0.0.0 \
   --rpc-port 8899 \
   --warp-slot 200
